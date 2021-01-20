@@ -1,0 +1,10 @@
+a=input("Enter a String\n")
+x=input("Enter the element to find it's index\n")
+y=a.index(x)
+print("The index is " + str(y))
+a="Hello"
+print(a)
+z=a.upper()
+print(z)
+z=z.replace('H', 'h')
+print(z)
